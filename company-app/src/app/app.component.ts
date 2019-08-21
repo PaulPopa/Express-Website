@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { City } from './city'
+import { DataService } from './data.service';
 
 @Component({
   selector: 'company-root',
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'company-app';
+  title = 'My Wonderful City Application';
+
+  constructor () { }
 }
